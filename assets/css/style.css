@@ -445,6 +445,15 @@ a,
 .mb-80 {
   margin-bottom: 80px !important;
 }
+.navbar-brand img {
+  width: 150px;
+}
+.navbar-transparent .navbar-brand img {
+  width: 230px;
+}
+.navbar-custom .navbar-nav {
+  margin-top: 14px;
+}
 
 @media only screen and (max-width: 991px) {
   .mt-sm-0 {
@@ -1238,6 +1247,9 @@ General Styles - Owlcarousel
 /*--------------------------------------------------------------
 	Navbar
 --------------------------------------------------------------*/
+.navbar-toggle{
+  margin-top: 22px;
+}
 .navbar-custom {
   background-color: rgba(10, 10, 10, 0.9);
   border: 0;
@@ -1246,7 +1258,7 @@ General Styles - Owlcarousel
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 11px;
+  font-size: 14px;
   transition: background, padding 0.4s ease-in-out 0s;
 }
 
@@ -2781,6 +2793,10 @@ Google map
 
 @media (max-width: 767px) {
   /* Navbar */
+
+  .navbar-transparent .navbar-brand img {
+    width: 150px;
+  }
   .navbar-custom .navbar-nav {
     letter-spacing: 3px;
     margin-top: 1px;
