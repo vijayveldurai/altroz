@@ -448,6 +448,9 @@ a,
 .navbar-brand img {
   width: 150px;
 }
+.navbar-brand-inner img {
+  width: 150px;
+}
 .navbar-transparent .navbar-brand img {
   width: 230px;
 }
@@ -567,6 +570,10 @@ a,
   .mb-xs-80 {
     margin-bottom: 80px !important;
   }
+}
+
+.additional-information li{
+  margin-left: 14px;
 }
 
 /* Scroll to top */
@@ -1918,6 +1925,7 @@ Google map
 .work-image {
   position: relative;
   overflow: hidden;
+  border: 1px solid #f1cb11;
 }
 
 .work-image img {
