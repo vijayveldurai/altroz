@@ -457,6 +457,9 @@ a,
 .navbar-custom .navbar-nav {
   margin-top: 14px;
 }
+.productImg{
+  border: 1px solid #f1cb11;
+}
 
 @media only screen and (max-width: 991px) {
   .mt-sm-0 {
