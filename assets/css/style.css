@@ -151,7 +151,7 @@ a,
 
 /* Sections */
 .navbar-custom + .main {
-  margin-top: 50px;
+  margin-top: 56px;
 }
 
 .main {
@@ -448,11 +448,17 @@ a,
 .navbar-brand img {
   width: 150px;
 }
+.navbar-brand-inner img {
+  width: 150px;
+}
 .navbar-transparent .navbar-brand img {
   width: 230px;
 }
 .navbar-custom .navbar-nav {
   margin-top: 14px;
+}
+.productImg{
+  border: 1px solid #f1cb11;
 }
 
 @media only screen and (max-width: 991px) {
@@ -567,6 +573,10 @@ a,
   .mb-xs-80 {
     margin-bottom: 80px !important;
   }
+}
+
+.additional-information li{
+  margin-left: 14px;
 }
 
 /* Scroll to top */
@@ -1918,6 +1928,7 @@ Google map
 .work-image {
   position: relative;
   overflow: hidden;
+  border: 1px solid #f1cb11;
 }
 
 .work-image img {
